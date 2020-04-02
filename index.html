@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Population Graph App</title>
+    <h1>Population Graphs</h1>
+    <script defer src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js'></script>
+    <script defer src='./myChart.js'></script>
+</head>
+
+<body>
+    <p>Enter three letter <a href="https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes">country codes</a></p>
+    <input class='textinput' placeholder='Whoa!' type='text' id='country' maxlength='3' />
+    <p>
+        <button class='button' id='renderBtn'> Render population graphs </button>
+    </p>
+
+    
+    <canvas id='myChart'></canvas>
+</body>
+
+</html>
