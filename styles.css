@@ -3,7 +3,9 @@
 }
 
 .content {
+    padding: 3%;
     text-align: center;
+    line-height: 2rem;
 }
 
 button {
