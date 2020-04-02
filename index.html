@@ -4,20 +4,26 @@
 <head>
     <meta charset="utf-8">
     <title>Population Graph App</title>
-    <h1>Population Graphs</h1>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
     <script defer src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js'></script>
     <script defer src='./myChart.js'></script>
 </head>
 
 <body>
-    <p>Enter three letter <a href="https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes">country codes</a></p>
-    <input class='textinput' placeholder='Whoa!' type='text' id='country' maxlength='3' />
-    <p>
-        <button class='button' id='renderBtn'> Render population graphs </button>
-    </p>
-
-    
-    <canvas id='myChart'></canvas>
+    <div class="content">
+        <h1>Population Graphs</h1>
+        <label for="country">Enter three letter <a href="https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes">country
+                codes</a>
+            <br>
+            <input class='textinput' placeholder='Whoa!' type='text' id='country' maxlength='3' required />
+        </label>
+        <p>
+            <button class='button' id='renderBtn'> Render population graphs </button>
+        </p>
+        <canvas id='myChart'></canvas>
+    </div>
 </body>
 
 </html>
