@@ -1,2 +1,2 @@
 # Population_graphs
-A working web app to visualize population graphs for countries. Resources used for learning can be found in ```https://sympaoy.github.io/webcodingforbeginners/#pre-work``` and this is a #mimmitkoodaa MOOC by Sympa.
+A working web app to visualize population graphs for countries. A working web app to visualize population graphs for countries. Technology used are HTML, CSS, JS (fetch method))
